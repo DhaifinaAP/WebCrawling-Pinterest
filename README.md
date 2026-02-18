@@ -1,8 +1,8 @@
 # Pinterest Data Crawler
-## Deskripsi Proyek
-Proyek ini adalah skrip Python yang digunakan untuk mengambil data pin dari Pinterest berdasarkan kata kunci pencarian yang dimasukkan pengguna. Data yang diambil berupa tautan ke pin Pinterest, yang kemudian disimpan ke dalam file CSV.
+## Deskripsi Project
+Skrip Python ini digunakan untuk mengambil data pin dari Pinterest berdasarkan kata kunci pencarian yang dimasukkan pengguna. Data yang diambil berupa tautan ke pin Pinterest, yang kemudian disimpan ke dalam file CSV.
 
-## Prasyarat
+## Requirements
 Sebelum menjalankan proyek ini, pastikan telah menginstal perangkat lunak dan requirements berikut:
 - **Python 3.x**
 - **Paket Python**:
@@ -30,7 +30,7 @@ Sebelum menjalankan proyek ini, pastikan telah menginstal perangkat lunak dan re
      ```
    - Gantilah isi `apikey.txt` dengan API Key Anda sendiri yang valid dari [RapidAPI](https://rapidapi.com).
 
-## Cara Menjalankan Proyek
+## How to Run
 
 1. **Jalankan skrip Python**:
    Pastikan Anda berada di direktori proyek, lalu jalankan skrip dengan perintah berikut:
@@ -53,3 +53,4 @@ Sebelum menjalankan proyek ini, pastikan telah menginstal perangkat lunak dan re
 - **apikey.txt**: File teks yang berisi API Key Anda (ikuti format dari `apikey-example.txt`).
 - **apikey-example.txt**: Contoh format untuk `apikey.txt`.
 - **url_printerest_data.csv**: File hasil pengumpulan data dari Pinterest.
+
